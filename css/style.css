@@ -1,0 +1,187 @@
+.{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hidden {
+    display: none;
+}
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:70%;
+    }
+
+#greeting {
+    color:white;
+    font-size: 30px;
+}
+#greeting :first-child {
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 200px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color: white;
+    box-shadow: inset 0 0 0 2px white;
+    background-color: transparent;
+    height: 18px;
+    
+    :hover{
+        color: #fff;
+        background-color: #616467;
+    }
+}
+#greeting ::placeholder{
+    color:white;
+}
+
+#greeting :last-child {
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color: white;
+    box-shadow: inset 0 0 0 2px white;
+    background-color: transparent;
+    height: 48px;
+    :hover{
+        color: #fff;
+        background-color: #616467;
+    }
+
+}
+
+
+
+#quote {
+    display: flex;
+    align-content: bottom;
+    justify-content: center;
+    color:aliceblue;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top:190px;
+
+
+}
+#clock{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color:aliceblue;
+    font-weight: 700;
+    font-size: 120px;
+    padding-top: 90px;
+}
+#todo-list {
+    color:aliceblue;
+}
+
+#todo-form {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-left:10%;
+}
+#todo-form ::placeholder {
+    color: aliceblue;
+}
+
+#todo-form input {
+    border: 0;
+    outline: 0;
+    color: rgb(250, 250, 250);
+    background-color: transparent;
+    box-shadow: transparent;
+    border-radius: 4px;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-top: -20px;
+    min-height: 28px;
+    vertical-align: middle;
+    transition: background-color .24s,box-shadow .24s;
+    transition-property: background-color, box-shadow;
+    transition-duration: 0.24s, 0.24s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+
+}
+#todo-list {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    position:absolute;
+    font-size: 20px;
+   
+}
+#todo-list{
+    border-radius: 10%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    background-color: rgba(255, 255, 255, 0.3);
+ 
+}
+
+#todo-list button{
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0 12px;
+    line-height: 20px;
+    height: 30px;
+    max-height: 30px;
+    background: none;
+    font-weight: 700;
+    border: 0;
+    border-radius: 0;
+    color: #D92736;
+    transition-timing-function: ease-in-out;
+    transition-property: background;
+    transition-duration: 150ms;
+    box-shadow: none;
+    :hover {
+        background: #F7F9FD;
+    }
+
+}
+.js-weather {
+    display: flex;
+    flex-direction: row-reverse;
+    color:white;
+    font-weight: 400;
+    font-size:30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
